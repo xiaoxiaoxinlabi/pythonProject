@@ -15,6 +15,9 @@ def read_file():
 	 	jsons = json.loads(lines)
 	 	datas = jsons['data']
 	 	jdCheckRules = datas['jdCheckRules']
+
+	 	print(type(jdCheckRules))
+	 	print(type(datas))
 	 
 	 	
 	 count = 0
